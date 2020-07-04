@@ -1,0 +1,167 @@
+@media (max-width: 960px) {
+  .slider__text {
+    width: 50%;
+  }
+
+  .slider__button {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .works {
+    margin-bottom: 80px;
+  }
+
+  .works__item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .works__list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+
+  .works__subtitle {
+    width: 220px;
+  }
+}
+
+@media (max-width: 850px) {
+  .checks__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .checks__item {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 40px;
+  }
+
+  .checks__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .checks__title {
+    padding-right: 0;
+  }
+
+  .checks__button {
+    align-self: center;
+    width: 50px;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .footer__item {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .slider__list {
+    flex-wrap: wrap;
+  }
+
+  .items__slide {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .checks__inner {
+    justify-content: center;
+  }
+
+  .checks__item {
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .checks__title {
+    max-width: 100%;
+  }
+
+  .checks__logo {
+    left: 7%;
+  }
+
+  .slider__text {
+    width: auto;
+  }
+
+  .footer__item {
+    max-width: none;
+  }
+
+  .footer__inner {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 490px) {
+  .slider__text {
+    width: 75%;
+  }
+
+  .header__inner {
+    align-items: space-around;
+  }
+
+  .header__nav {
+    max-height: 0;
+    width: 100%;
+  }
+
+  .nav__list {
+    padding: 0;
+    display: block;
+    margin-bottom: 0;
+    border-bottom: 3px solid #e8603c;
+  }
+
+  .nav__item {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .nav__link {
+    display: block;
+  }
+
+  .header__menu-mini {
+    margin-top: 10px;
+    display: block;
+    margin-right: 20px;
+  }
+
+  .works__item {
+    width: 100% !important;
+  }
+
+  .footer__item {
+    margin-bottom: 20px;
+  }
+}
