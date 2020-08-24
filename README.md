@@ -1,1 +1,2 @@
-# Just my project
+# Jetro
+My first ptoject
